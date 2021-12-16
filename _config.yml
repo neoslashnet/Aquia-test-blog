@@ -1,6 +1,6 @@
 baseurl: "/"
 permalink: pretty
-title: "Jekyll Atlantic"
+title: "Aquia Inc Blog"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
