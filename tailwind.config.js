@@ -26,3 +26,13 @@ module.exports = {
     require("@tailwindcss/typography")
   ],
 };
+const colors = require("tailwindcss/colors");
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        blueGray: colors.blueGray
+      }
+    }
+  }
+};
