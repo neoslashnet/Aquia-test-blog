@@ -37,5 +37,4 @@ There are two primary jobs involved in creating a website: the web designer and 
 - Visual design and illustration
 - Programming and coding
 
-
 Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
