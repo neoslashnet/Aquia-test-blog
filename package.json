@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-atlantic",
+  "name": "Aquia Inc Blog",
   "version": "1.0.0",
-  "description": "A Jekyll Tailwind starter blog",
+  "description": "Welcome to the Aquia Inc Blog",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.2.6",
@@ -11,6 +11,6 @@
     "postcss-nested": "^5.0.6",
     "tailwindcss": "^2.2.4"
   },
-  "author": "rob@zerostatic.io",
+  "author": "Aquia",
   "license": "MIT"
 }
