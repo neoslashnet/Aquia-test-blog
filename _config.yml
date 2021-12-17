@@ -1,6 +1,6 @@
 baseurl: "/"
 permalink: pretty
-title: "Aquia Inc Blog"
+title: "Aquia Blog"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge

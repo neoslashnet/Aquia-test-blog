@@ -1,7 +1,7 @@
 {
-  "name": "Welcome to the Aquia Inc Blog",
+  "name": "Aquia Blog",
   "version": "1.0.0",
-  "description": "Welcome to the Aquia Inc Blog",
+  "description": "Welcome to the Aquia Blog",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.2.6",
