@@ -1,6 +1,6 @@
 ---
 layout: home
 title: Aquia Blog
-heading: <em>Aquia Inc</em> Blog
-description: Welcom to the Aquia Blog.
+heading: <em>Aquia</em> Blog
+description: Welcome to the Aquia Blog.
 ---
