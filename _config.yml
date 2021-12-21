@@ -14,7 +14,7 @@ google_analytics_id: false # replace with "UA-XXXX"
 
 logo:
   logo_desktop_image: assets/images/logo/logo.svg
-  logo_desktop_text: "Aquia <strong>Inc</strong>"
+  logo_desktop_text: "Aquia <strong></strong>"
   logo_mobile_image: assets/images/logo/logo-mobile.svg
   logo_mobile_text: ""
   logo_desktop_height: "36px"
@@ -25,7 +25,7 @@ logo:
 seo:
   meta_twitter_site: "@zerostat"
   meta_twitter_creator: "@neoslashnet"
-  meta_og_image: "https://www.zerostatic.io/theme/jekyll-atlantic/jekyll-atlantic-screenshot.png"
+  meta_og_image: "assets/images/logo/logo-mobile.svg"
 
 plugins:
   - jekyll-environment-variables
