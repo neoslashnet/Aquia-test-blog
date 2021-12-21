@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finding security issues and misconfigurations in AWS Cloud Development Kit projects with SemGrep"
-date: 2021-12-21T10:26:40+10:00
+date: 2021-12-21
 authors: ["Dakota Riley"]
 categories: ["Security", "AWS", "IaC"]
 tags: ["Security"]
