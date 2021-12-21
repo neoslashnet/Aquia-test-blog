@@ -1,12 +1,11 @@
 sage_kirk:
-  name: 'Sage Kirk'
-  image: 'assets/images/author/sage-kirk.jpg'
-  twitter: '@zerostaticio'
+  name: "Sage Kirk"
+  image: "assets/images/author/sage-kirk.jpg"
+  twitter: "@zerostaticio"
 mike_vance:
-  name: 'Mike Vance'
-  image: 'assets/images/author/mike-vance.jpg'
-  twitter: '@zerostaticio'
-  dakota_riley:
-  name: 'Dakota Riley'
-  image: 'assets/images/author/dakota.jpg'
-  
+  name: "Mike Vance"
+  image: "assets/images/author/mike-vance.jpg"
+  twitter: "@zerostaticio"
+dakota_riley:
+  name: "Dakota Riley"
+  image: "assets/images/author/dakota.jpg"
