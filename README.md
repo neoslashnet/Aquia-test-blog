@@ -10,5 +10,3 @@ Aquia is a service-disabled veteran owned small business.
 ### License
 
 This theme is open source under the MIT license.
-
-> Please do not create ports of this theme. You can't re-distribute or re-sell this theme as a theme, stock, in a tool or as a template.
