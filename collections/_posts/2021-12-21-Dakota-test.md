@@ -320,10 +320,10 @@ Check out the live example in the Semgrep Playground [here](https://semgrep.dev/
 
 # Helpful Links and Additional Reading
 
-AWS Cloud Development Kit: https://aws.amazon.com/cdk/
-AWS CDK API Reference: https://docs.aws.amazon.com/cdk/api/v1/docs/aws-construct-library.html
-AWS CDK Workshop: https://cdkworkshop.com
-Pulumi: https://www.pulumi.com/
-Semgrep: https://semgrep.dev
-First Rule Example - Semgrep Playground: https://semgrep.dev/s/AyyL
-Second Rule Example - Semgrep Playground: https://semgrep.dev/s/7nne
+[AWS Cloud Development Kit](https://aws.amazon.com/cdk)
+[AWS CDK API Reference](https://docs.aws.amazon.com/cdk/api/v1/docs/aws-construct-library.html)
+[AWS CDK Workshop](https://cdkworkshop.com)
+[Pulumi](https://www.pulumi.com)
+[Semgrep](https://semgrep.dev)
+[First Rule Example - Semgrep Playground](https://semgrep.dev/s/AyyL)
+[Second Rule Example - Semgrep Playground](https://semgrep.dev/s/7nne)
