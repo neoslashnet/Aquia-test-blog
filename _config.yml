@@ -51,7 +51,7 @@ defaults:
     values:
       image: true
   - scope:
-      path: "categories"
+      path: "/categories"
     values:
       layout: category
       permalink: /category/:basename/
