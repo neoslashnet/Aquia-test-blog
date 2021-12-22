@@ -17,15 +17,15 @@
 .highlight .kd { color: #050F69 } /* Keyword.Declaration */
 .highlight .kn { color: #f92672 } /* Keyword.Namespace */
 .highlight .kp { color: #050F69 } /* Keyword.Pseudo */
-.highlight .kr { color: #050F69 } /* Keyword.Reserved */
-.highlight .kt { color: #050F69 } /* Keyword.Type */
+.highlight .kr { color: #1859af } /* Keyword.Reserved */
+.highlight .kt { color: #1859af } /* Keyword.Type */
 .highlight .ld { color: #e6db74 } /* Literal.Date */
 .highlight .m { color: #ae81ff } /* Literal.Number */
 .highlight .s { color: #e6db74 } /* Literal.String */
 .highlight .na { color: #68B4E7} /* Name.Attribute */
 .highlight .nb { color: #f8f8f2 } /* Name.Builtin */
 .highlight .nc { color: #68B4E7} /* Name.Class */
-.highlight .no { color: #050F69 } /* Name.Constant */
+.highlight .no { color: #052d69 } /* Name.Constant */
 .highlight .nd { color: #68B4E7} /* Name.Decorator */
 .highlight .ni { color: #f8f8f2 } /* Name.Entity */
 .highlight .ne { color: #68B4E7} /* Name.Exception */
