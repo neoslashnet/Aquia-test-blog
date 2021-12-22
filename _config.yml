@@ -25,7 +25,7 @@ logo:
 seo:
   meta_twitter_site: "@zerostat"
   meta_twitter_creator: "@neoslashnet"
-  meta_og_image: "/assets/images/logo/logo-mobile.svg"
+  meta_og_image: "assets/images/logo/logo-mobile.svg"
 
 plugins:
   - jekyll-environment-variables
