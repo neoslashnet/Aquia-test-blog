@@ -8,6 +8,3 @@ main:
   - name: "About"
     url: "/about/"
     weight: 3
-    - name: "Aquia-Web"
-    url: "https://www.aquia.us"
-    weight: 4
