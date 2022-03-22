@@ -6,6 +6,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     {% include meta.html %}
+    {% include google-analytics.html %}
+    {% include seo-tags.html %}
 
     <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
@@ -17,7 +19,7 @@
       {{content}}
       {% include footer.html %}
     </div>
-    {% include google-analytics.html %}
     <script type="text/javascript" src="{{ '/assets/js/hamburger.js' | relative_url }}"></script>
+    <script src="/assets/js/copycode.js"></script>
   </body>
 </html>

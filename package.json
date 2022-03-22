@@ -1,7 +1,7 @@
 {
-  "name": "Aquia Blog",
+  "name": "Tributary",
   "version": "1.0.0",
-  "description": "Welcome to the Aquia Blog",
+  "description": "Tributary",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.2.6",

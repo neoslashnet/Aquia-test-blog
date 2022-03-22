@@ -1,6 +1,6 @@
 baseurl: "/"
 permalink: pretty
-title: "Aquia Blog"
+title: "Tributary"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -10,9 +10,11 @@ sass:
   style: compact
   precision: 10
 
-google_analytics_id: false # replace with "UA-XXXX"
+google_analytics_id: UA-221887922-1
 
-logo:
+logo: assets/images/logo/logo.svg
+
+aqlogo:
   logo_desktop_image: assets/images/logo/logo.svg
   logo_desktop_text: <strong></strong>
   logo_mobile_image: assets/images/logo/logo-mobile.svg
@@ -23,14 +25,22 @@ logo:
   logo_mobile_width: "36px"
 
 seo:
-  meta_twitter_site: "@zerostat"
+  meta_twitter_site: "@neoslashnet"
   meta_twitter_creator: "@neoslashnet"
-  meta_og_image: "https://www.zerostatic.io/theme/jekyll-atlantic/jekyll-atlantic-screenshot.png"
+  meta_og_image: "assets/images/logo/logo.svg"
+
+
+social:
+  name: Aquia
+  links:
+  - https://linkedin.com/company/aquia-llc
+  - https://github.com/aquia-inc
 
 plugins:
   - jekyll-environment-variables
   - jekyll-postcss
   - jekyll-paginate
+  - jekyll-seo-tag
 
 paginate: 3
 paginate_path: /blog/page:num/
