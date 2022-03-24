@@ -21,3 +21,8 @@ katy:
 eric_rippetoe:
   name: "Eric Rippetoe"
   image: "assets/images/author/eric_rippetoe.jpg"
+galiata:
+  name: "David Galiata"
+  image: "assets/images/author/dg.jpg"
+  bio: Security Architect who is passionate about the IT industry, cloud computing, and cybersecurity.
+  linkedin: https://linkedin.com/in/dgaliata
