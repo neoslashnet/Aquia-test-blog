@@ -7,11 +7,11 @@
             <img height="48" width="48" class="rounded-full border-white border-2" src="{{ author_object.image | relative_url }}" alt="{{ author_object.name }}"/>
         {% endif %}
         <div>
-            <span class="font-medium text-sm ml-1 block">{{ author_object.title }}</span>
-            <a class="text-sm ml-1 block text-blue-400" {{ author_object.title }} "></a>
+            <span class="font-medium text-sm ml-1 block">{{ author_object.name }}</span>
+            <a class="text-sm ml-1 block text-blue-400" href="https://www.linkedin.com/in/{{ author_object.linkedin }}">{{ author_object.linkedin }}</a>
             <div>
-                <span class="font-medium text-sm ml-1 block">{{ author_object.name }}</span>
-                <a class="text-sm ml-1 block text-blue-400" href="https://www.linkedin.com/in/{{ author_object.linkedin }}">{{ author_object.linkedin }}</a>
+                <span class="font-medium text-sm ml-1 block">{{ author_object.title }}</span>
+                <a class="text-sm ml-1 block text-blue-400" {{ author_object.title }} "></a>
             </div>
         </div>
     </div>
