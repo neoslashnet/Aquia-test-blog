@@ -1,19 +1,10 @@
-<hr>
-<span>
-   <div>
-      # include author image if there is an author image 
-      {% if author.image %}
-         <img src="{{author.image}}" class="author-img">
-      {% endif %}
-      <div>
-         <h3> {{author.name}} &nbsp;
-            # include link to author's twitter if they have provided a twitter account
-           {% if author.twitter %}
-              <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
-            {% endif %}
-          </h3>
-      </div>
-   </div>
+<div class="py-6 md:py-10 lg:w-5/6 {% if align == "center" %}md:text-center mx-auto{% endif %}">
+   {% if date %}
+   <div class="font-medium text-gray-700"> </div>
+   {% endif %}
+   <h1 class="heading text-4xl md:text-6xl font-bold font-sans md:leading-tight">
+     {{ heading }}
+   </h1>
    {{ author.bio }}
 </span>
 <br>
