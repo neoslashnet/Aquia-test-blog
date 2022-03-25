@@ -52,10 +52,8 @@ layout: default
         <div>
             {% for category in page.categories %}
                 {% include category-badge.html %}
+                {% include author_bio.html %}
             {% endfor %}
         </div>
     </div>
-{% endif %}
-{% if author.bio %}
-    {% include author_bio.html %}
 {% endif %}
