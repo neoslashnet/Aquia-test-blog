@@ -25,7 +25,6 @@ layout: default
                     {% include author-large.html
         author=author
         %}
-                    {% include author_bio.html %}
                 {% endfor %}
             </div>
         {% endif %}
@@ -57,4 +56,8 @@ layout: default
             {% endfor %}
         </div>
     </div>
+{% endif %}
+
+{% if author.bio %}
+    {% include author_bio.html %}
 {% endif %}
