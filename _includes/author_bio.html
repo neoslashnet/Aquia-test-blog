@@ -1,18 +1,7 @@
 <hr>
 <span>
-   <div> 
-      {% if author.image %}
-         <img src="{{author.image}}" class="author-img">
-      {% endif %}
-      <div>
-         <h3> {{author.name}} &nbsp;
-            # include link to author's twitter if they have provided a twitter account
-           {% if author.twitter %}
-              <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
-            {% endif %}
-          </h3>
-      </div>
-   </div>
+   <div>       
    {{ author.bio }}
+   </div>
 </span>
 <br>
