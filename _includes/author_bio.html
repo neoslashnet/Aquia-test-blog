@@ -1,7 +1,7 @@
-<hr>
-<span>
-   <div>       
-   {{ author.bio }}
-   </div>
-</span>
-<br>
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
+
+{% if author.bio %}
+    <p>{{ author.bio }}</p>
+</div>
+{% endif %}
