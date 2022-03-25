@@ -23,11 +23,9 @@ layout: default
             <div class="flex flex-col hidden md:flex mb-3 md:mb-6">
                 {% for author in page.authors %}
                     {% include author-large.html
-                      {% if author.bio %}
+        author=author
+        %}
                     {% include author_bio.html %}
-
-                    author=author
-                            %}
                 {% endfor %}
             </div>
         {% endif %}
@@ -55,6 +53,7 @@ layout: default
         <div>
             {% for category in page.categories %}
                 {% include category-badge.html %}
+
             {% endfor %}
         </div>
     </div>
