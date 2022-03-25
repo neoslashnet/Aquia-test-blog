@@ -1,10 +1,15 @@
-<div class="py-6 md:py-10 lg:w-5/6 {% if align == "center" %}md:text-center mx-auto{% endif %}">
-   {% if date %}
-   <div class="font-medium text-gray-700"> </div>
-   {% endif %}
-   <h1 class="heading text-4xl md:text-6xl font-bold font-sans md:leading-tight">
-     {{ heading }}
-   </h1>
-   {{ author.bio }}
-</span>
-<br>
+{% assign heading = include.heading %}
+{% assign description = include.description %}
+{% assign align = include.align %}
+
+<div center" %}md:text-center mx-auto{% endif %}" class="py-6 md:py-12 lg:w-10/12 {% if align == ">
+    {% if date %}
+        <div class="font-medium text-gray-700">{{ date | date_to_long_string }}</div>
+    {% endif %}
+    <h1 class="heading text-4xl md:text-6xl font-bold font-sans md:leading-tight">
+        {{ heading }}
+    </h1>
+    {% if description %}
+        <h2 class="text-xl text-gray-600 mt-2">{{ author.bio }}</h2>
+    {% endif %}
+</div>
