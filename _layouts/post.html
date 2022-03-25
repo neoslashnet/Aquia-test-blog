@@ -56,5 +56,6 @@ layout: default
         </div>
     </div>
 {% endif %}
-    {% include author-bio.html %}
+{% if author.bio %}
+    {% include author_bio.html %}
 {% endif %}
