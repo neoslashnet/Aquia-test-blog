@@ -63,7 +63,7 @@ defaults:
       path: "categories"
     values:
       layout: category
-      permalink: /categories/:category/
+      permalink: /category/:category/
 
 exclude:
   - Gemfile
