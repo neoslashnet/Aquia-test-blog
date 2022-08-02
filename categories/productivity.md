@@ -1,4 +1,0 @@
----
-layout: cetegory
-title: Productivity
----
