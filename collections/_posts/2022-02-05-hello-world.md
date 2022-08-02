@@ -3,7 +3,7 @@ title: "DG Test Post"
 date: 2022-02-05T09:15:00-8:00
 layout: post
 authors: ["galiata"]
-categories: ["Culture", "Mission", "Values", "Start-Up", "Security", "SDVOSB", "Mindfulness"]
+categories: ["Culture", "Mission", "Values", "Start-Up", "Security", "SDVOSB", "Mindfulness", "Productivity"]
 description: Today I wanted to take some time to reflect on our culture, our values, and our mission.
 thumbnail: "assets/images/hello-world.jpg"
 image: "../../assets/images/hello-world-main.png"
