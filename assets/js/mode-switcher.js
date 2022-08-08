@@ -1,28 +1,16 @@
-const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	
-
-if (theme === "dark") {
-	document.getElementById("theme-toggle").innerHTML = "Light Mode";
-} else if (theme === "light") {
-	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-} else if  (userPrefers === "dark") {
-	document.documentElement.setAttribute('data-theme', 'dark');
-	window.localStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "Light Mode";
-} else {
-	document.documentElement.setAttribute('data-theme', 'light');
-	window.localStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+const options = {
+	bottom: '64px', // default: '32px'
+	right: 'unset', // default: '32px'
+	left: '32px', // default: 'unset'
+	time: '0.5s', // default: '0.3s'
+	mixColor: '#fff', // default: '#fff'
+	backgroundColor: '#fff',  // default: '#fff'
+	buttonColorDark: '#100f2c',  // default: '#100f2c'
+	buttonColorLight: '#fff', // default: '#fff'
+	saveInCookies: false, // default: true,
+	label: '🌓', // default: ''
+	autoMatchOsTheme: true // default: true	
 }
 
-function modeSwitcher() {
-	let currentMode = document.documentElement.getAttribute('data-theme');
-	if (currentMode === "dark") {
-		document.documentElement.setAttribute('data-theme', 'light');
-		window.localStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-	} else {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		window.localStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "Light Mode";
-	}
-}
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
