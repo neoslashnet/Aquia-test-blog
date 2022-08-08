@@ -48,7 +48,7 @@ body {}
   }
   .darkmode--activated p, .darkmode--activated li {
     color: #000;
-    isolation: isolate
+    isolation: difference
   }
   
   .button {
