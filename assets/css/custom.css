@@ -55,5 +55,5 @@ body {}
   }
   
   .darkmode--activated .logo {
-    mix-blend-mode: difference;
+    mix-blend-mode: isolate;
   }
