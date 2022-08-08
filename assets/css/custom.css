@@ -48,6 +48,7 @@ body {}
   }
   .darkmode--activated p, .darkmode--activated li {
     color: #000;
+    isolation: isolate
   }
   
   .button {
@@ -55,5 +56,5 @@ body {}
   }
   
   .darkmode--activated .logo {
-    mix-blend-mode: isolate;
+    mix-blend-mode: difference;
   }
