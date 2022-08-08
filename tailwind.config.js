@@ -6,7 +6,7 @@ module.exports = {
     "./_layouts/**/*.html",
     "./blog/index.html"
   ],
-  darkMode: false,
+  darkMode: true,
   theme: {
     screens: {
       sm: "640px",
