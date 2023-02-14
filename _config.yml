@@ -40,6 +40,7 @@ plugins:
   - jekyll-postcss
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed
 
 paginate: 3
 paginate_path: /blog/page:num/
