@@ -1,6 +1,6 @@
 const options = {
-	top: '90px'
-	bottom: '0px', // default: '32px'
+	//top: '90px'
+	bottom: '1000px', // default: '32px'
 	right: '32px', // default: '32px'
 	left: 'unset', // default: 'unset'
 	time: '0.5s', // default: '0.3s'
