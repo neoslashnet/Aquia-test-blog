@@ -4,6 +4,9 @@ title: "Tributary"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
+name: Tributary
+description: The Aquia Company Blog
+url: https://blog.aquia.us
 
 sass:
   indentWidth: 4
