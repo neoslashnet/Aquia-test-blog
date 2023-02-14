@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 name: Tributary
 description: The Aquia Company Blog
-url: https://blog.aquia.us
+url: https://aquia-test-blog.vercel.app
 
 sass:
   indentWidth: 4
